@@ -8,6 +8,8 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
 
+teste: Tiago Teixeira profile DEV DEFAULT
+
 ---
 spring:
   profiles: docker
@@ -21,3 +23,4 @@ eureka:
 server:
   port: 8080 
   context-path: /produto
+teste: Tiago Teixeira profile DOCKER  
