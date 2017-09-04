@@ -2,17 +2,8 @@ server:
   port: 8080
   context-path: /produto
 
-eureka:
-  client:
-    registryFetchIntervalSeconds: 3
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
-
 teste: Tiago Teixeira profile DOCKER GITTTTTTT
 
----
-spring:
-  profiles: docker
 eureka:
   instance:
     preferIpAddress: true
@@ -20,6 +11,3 @@ eureka:
     serviceUrl:
       defaultZone: http://discovery-service:8761/eureka/
 
-server:
-  port: 8080
-  context-path: /produto
