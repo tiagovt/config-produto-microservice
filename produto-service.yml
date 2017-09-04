@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 8081
   context-path: /produto
 
 eureka:
@@ -21,6 +21,6 @@ eureka:
       defaultZone: http://discovery-service:8761/eureka/
 
 server:
-  port: 8080 
+  port: 8081
   context-path: /produto
 teste: Tiago Teixeira profile DOCKER  
