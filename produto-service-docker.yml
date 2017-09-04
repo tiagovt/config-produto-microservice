@@ -8,7 +8,7 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
 
-teste: Tiago Teixeira profile DOCKER
+teste: Tiago Teixeira profile DOCKER GITTTTTTT
 
 ---
 spring:
