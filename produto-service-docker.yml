@@ -2,7 +2,7 @@ server:
   port: 8080
   context-path: /produto
 
-teste: Tiago Teixeira profile DOCKER GITTTTTTT
+teste: Tiago Teixeira profile DOCKER GITTTTTTT Teste
 
 eureka:
   instance:
