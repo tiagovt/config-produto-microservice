@@ -10,6 +10,10 @@ eureka:
 
 teste: Tiago Teixeira profile DEV DEFAULT GIT
 
+management:
+  security:
+    enabled: false
+
 ---
 spring:
   profiles: docker
